@@ -1,23 +1,17 @@
+
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Increment Counter</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-		let counter = 0; // Initial Counter Value
+    <h1>Increment Counter</h1>
+    <p id="counter">0</p>
+    <button id="incrementBtn">Increment</button>
 
-        document.getElementById("incrementBtn").addEventListener("click", function() {
-            alert("Current value before increment: " + counter); // Show alert with un-incremented value
-            counter++; // Increment the counter
-            document.getElementById("counter").innerText = counter; // Update the counter display
-        });
-</script>
-
+    <script src="script.js"></script> <!-- Link JavaScript correctly -->
 </body>
-
 </html>
